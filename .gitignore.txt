@@ -12,6 +12,7 @@
 *.DS_Store
 
 # Prevent users to commit the README files created by RStudio
+README.html
 *README.html
 *README_cache/
 #*README_files/
