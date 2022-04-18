@@ -1,0 +1,202 @@
+/*Footer-v1
+------------------------------------*/
+.footer-v1 .footer {
+	padding: 25px 10;	
+	background: #e6e6e7;
+}
+
+.footer-v1 .footer p {
+	color: #eee;
+}
+
+.footer-v1 .footer h2 {
+	color: #eee;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+/*Link List*/
+.footer-v1 .link-list li {
+	border-top: solid 1px #353535;
+}
+
+.footer-v1 address,
+.footer-v1 .link-list a,
+.footer-v1 .link-list i {
+	color: #eee;
+}
+
+.footer-v1 address {
+	line-height: 23px;
+}
+
+/*Dotted Map*/
+.footer-v1 .footer .map-img {
+	background: url(../../img/map-img.png) 5px 60px no-repeat;
+}
+
+/*Blog Posts (with images)*/
+.footer-v1 .footer .posts .dl-horizontal a {
+ color: #dadada;
+}
+
+.footer-v1 .footer .dl-horizontal a:hover {
+ color: #5fb611 !important;
+}
+
+/*Copyright*/
+.footer-v1 .copyright {
+	background: #222;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer-v1 .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer-v1 .copyright a {
+	margin: 0 2px;
+}
+
+.footer-v1 .footer-socials {
+	margin-top: 12px;
+	text-align: right;
+}
+
+.footer-v1 .footer-socials li a {
+	color: #777;
+	font-size: 16px;
+}
+
+@media (max-width: 991px) {
+	.footer-v1 .copyright,
+	.footer-v1 .footer-socials {
+		text-align: left;
+	}
+}
+
+
+/* COLUMNS ------------------------------------------------------------------- */
+
+.pull-center{
+  width: 75%;
+}
+
+/* float 50%-50% width */
+.pull-right-50 {
+  width: 49%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-50 {
+  width: 49%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+/* float 30% 70% width */
+.pull-right-30 {
+  width: 29%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-right-70 {
+  width: 69%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-30 {
+  width: 29%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-70 {
+  width: 69%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+/* float 40% 60% width */
+.pull-right-40 {
+  width: 39%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-right-60 {
+  width: 59%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-40 {
+  width: 39%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-60 {
+  width: 59%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+/* float 30% 70% width */
+.pull-right-30 {
+  width: 29%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-right-70 {
+  width: 69%;
+  float: right;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-30 {
+  width: 29%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.pull-left-70 {
+  width: 69%;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+
+
+/*-- TABLES --*/
+.remark-slide table {
+  margin:              auto;
+  border-top:          1px solid #768692;
+  border-bottom:       1px solid #768692;
+}
+
+/*-- Table header --*/
+.remark-slide table thead th {
+    border-bottom:       1px solid #768692;
+}
+
+.remark-slide table tbody td {
+  text-align: center;
+}
+
+/*-- Table rows (even)--*/
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
+  background:          #E8EDEE;
+}
+ 
+

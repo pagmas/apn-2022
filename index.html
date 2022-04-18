@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -241,8 +242,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="home.html">Home</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Home
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="home.html">About APN</a>
+    </li>
+    <li>
+      <a href="organizing_committee.html">Organizing Committee</a>
+    </li>
+    <li>
+      <a href="speakers.html">Speakers</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="program.html">Program</a>
@@ -260,7 +276,7 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
-<div><img src="img/apn2022header.png" width="100%" height="250px"></div>
+<div><img src="img/apn2022header.png" width="100%" height="220px"></div>
 
 <div id="header">
 
@@ -280,6 +296,10 @@ h1 {
 p {
   font-size: 20px;
 }
+
+.center {
+  padding: 50px 0;
+}
 </style>
 <hr />
 <p>We are glad to inform you that the 4th Asian Pharmacometrics Network
@@ -287,6 +307,23 @@ Symposium will be held from November 9 to 10, 2022.</p>
 <p>The aims of APN are to enhance regional development and networking
 opportunities in pharmacometrics and to provide training opportunities
 to the future pharmacometricians across Asia.</p>
+<hr />
+
+    <div class="pull-left-30">
+      <img class="center" src="img/PAGMAS-Logo.png">
+    </div>
+    <div class="pull-right-60">
+      <h3>APN Symposium Secretariat</h3>
+      <h4>
+				PERSATUAN KUMPULAN PENDEKATAN POPULASI MALAYSIA (PAGMAS) <br>
+				C/O School of Pharmaceutical Sciences, <br>
+				Universiti Sains Malaysia, <br>
+				11800 Universiti Sains Malaysia, <Br>
+				Pulau Pinang, <br>
+				Malaysia. <br>
+			  Email : apnmalaysia2022@gmail.com
+      </h4>
+    </div>
 
 
 
